@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MyHibernate-mapping>
+    <class name="com.myhibernate.Test.Student" table="student">
+      <id name="studentNumber" column="studentnumber"></id>
+      <property name="name" column="name"></property>
+      <property name="age" column="age"></property>
+    </class>
+    <class name="com.myhibernate.Test.Teacher" table="teacher">
+    <id name="number" column="number"></id>
+    <property name="name" column="name"></property>
+    </class>
+ </MyHibernate-mapping>
+
